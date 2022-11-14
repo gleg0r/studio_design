@@ -104,14 +104,110 @@ nav.header {
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 4px;
     padding: 13px 35px 10px 35px;
+    cursor: pointer;
 }
+
+.wrap {
+    z-index: -2;
+    background-image: url('../img/main_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 707px;
+}
+
+.black {
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.7;
+    width: 100%;
+    height: 707px;
+    z-index: 0;
+}
+
 
 .block-main {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin: 0;
+    width: 680px;
+    height: 707px;
+    margin-left: 83px;
+
 }
 
-.block-main__img {
+.block-main-text {
+    margin-top: -8px;
+}
+
+.block-main-text__header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 576px;
+    margin-top: -61px;
+}
+
+.block-main-text__header span {
+    color: #E3B873;
+}
+
+.block-main-text__desc {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    width: 510px;
+    margin-top: -8px;
+}
+
+.block-main-btns {
+    display: flex;
+    align-self: flex-end;
     position: absolute;
-    z-index: -1;
-    margin-top: -21px;
+    left: 52px;
+    bottom: 208px;
+
+}
+
+.block-main-btns__calc {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 18px 45px 17px 43px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    border: 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.block-main-btns__submit {
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 18px 30px 14px 27px;
 }

@@ -212,3 +212,116 @@ nav.header {
     padding: 18px 30px 14px 27px;
 }
 
+.block-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;;
+
+}
+
+.block-slider-text {
+    width: 442px;
+    margin-right: 54px;
+    margin-top: 152px;
+}
+
+.block-slider-text__header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 253px;
+}
+
+.block-slider-text__desc {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-left: -2px;
+    margin-top: 25px;
+}
+
+.block-slider-text-parameter {
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-rows: 107px 107px;
+    width: 403px;
+    margin-top: 32px;
+}
+
+.block-slider-text-parameter h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.block-slider-text-parameter p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-top: -15px;
+}
+
+.block-slider-text-parameter__citydesc {
+    width: 127px;
+    line-height: 23px !important;
+}
+
+.block-slider-text-dots {
+    margin-top: 46px;
+    
+}
+.block-slider-text-dots__arrowLeft {
+    margin-right: 24px;
+}
+
+.block-slider-text-dots__dots {
+    margin-right: 24px;
+}
+
+.block-slider-img {
+    margin-top: 83px;
+}
+
+.block-slider-img-text {
+    display: flex;
+    margin-right: 4px;
+    margin-bottom: 30px;
+}
+
+.block-slider-img-text h4 {
+    margin-right: 60.5px;
+}
+
+.block-slider-img-text__header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+
+}
+
+.block-slider-img-text__header:first-child {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    width: 194px;
+    line-height: 27px;
+}

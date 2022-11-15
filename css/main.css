@@ -103,6 +103,7 @@ nav.header {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 4px;
+    border: 0;
     padding: 13px 35px 10px 35px;
     cursor: pointer;
 }
@@ -540,7 +541,7 @@ nav.header {
     flex-direction: column;
     margin-top: 49px;   
     margin-right: 10px;
-
+    margin-bottom: 160px;
 }
 
 .block-types-head__header {
@@ -618,4 +619,197 @@ nav.header {
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);  
     border: 0;
     padding: 17px 21.44px 17px 21.44px;
+}
+
+.block-call {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-call__img {
+    position: absolute;
+    margin-right: 810px;
+    margin-top: -106px;
+}
+
+.block-call-text {
+    margin-top: 54px;
+    margin-left: 180px;
+}
+
+.block-call-text div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 59px;
+}
+
+.block-call-text__header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 30px;
+    width: 1px;
+    padding: 11px 32px 9px 13px;
+}
+
+.block-call-text__desc {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #363636;
+    margin-left: 11px;
+    margin-top: 13px;
+
+    letter-spacing: 0.5px;
+}
+
+.block-call-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block-call-form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 546px;
+    height: 550px;
+    background-color: #131313;;
+    margin-top: 8px;
+    margin-left: 224px;
+
+}
+
+.block-call-form__header {
+    width: 274px;
+    margin-top: 31px; 
+    margin-bottom: 37px;
+    letter-spacing: .6px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.block-call-form label {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.6px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 32px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    margin-bottom: 46px;
+    width: 408px;
+    padding-bottom: 9px;
+}
+
+.block-call-form label:nth-of-type(n+1) {
+    margin-bottom: 50px;
+}
+
+.block-call-form label:nth-of-type(n+3) {
+    margin-bottom: -7px !important;
+}
+
+.block-call-form label:nth-of-type(n+4) {
+    display: inline;
+    margin-top: 22px;
+    margin-left: -118px;
+    letter-spacing: 0.9px;
+    width: 285px;
+    line-height: 26px;
+    color: #fff;
+    border: 0;
+}
+
+.block-call-form label>input {
+    background-color: #131313;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    margin-top: 6px;
+    margin-right: 11px;
+    letter-spacing: 0.6px;
+}
+
+
+.block-call-form label>input:active:hover:focus {
+    
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+
+.block-call-form label>input::placeholder {
+    background-color: #131313;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.block-call-form__btn  {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border: 0;
+    align-self: flex-end;
+    margin-top: 13px;
+    letter-spacing: 0.6px;
+    margin-right: 54px;
+    padding: 19px 38px 17px 47px;
+}
+
+.block-call-pig {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -87px;
+    margin-left: 663px;
+
+}
+
+.block-call-pig__desc {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    margin-left: 11px;
+    margin-top: -2px;
+    letter-spacing: 0.6px;
 }

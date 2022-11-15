@@ -393,7 +393,7 @@ nav.header {
 .block-feedback-video {
     position: absolute;
     margin-left: -6px;
-    margin-top: -239px;
+    margin-top: -285px;
 }
 
 .block-feedback-video__btn {
@@ -531,4 +531,91 @@ nav.header {
 
 .block-feedback__check:focus:not(:checked)+label::before {
     border-color: #ffffff;
-  }
+}
+
+.block-types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 49px;   
+    margin-right: 10px;
+
+}
+
+.block-types-head__header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.block-types-cards {
+    display: flex;
+    justify-content: center;
+    margin-left: 31px;
+    margin-top: 20px;
+}
+
+.block-types-card-text {
+    position: relative;
+    margin-right: 59px;
+
+}
+
+.block-types-card-text div {
+    background-color: #fff;
+    width: 330px;
+    margin-top: 293px;
+    margin-left: 32px;
+}
+ 
+.block-types-card-text__img {
+    position: absolute;
+    z-index: -1;
+}
+
+.block-types-card-text__header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    padding-top: 23px;
+    padding-left: 33px;
+
+}
+
+.block-types-card-text-list {
+    margin-top: -16px;
+    margin-left: 7px;
+}
+
+.block-types-card-text-list li {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    text-indent: -6px;
+}
+
+.block-types-card-text__btn  {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);  
+    border: 0;
+    padding: 17px 21.44px 17px 21.44px;
+}

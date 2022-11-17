@@ -124,7 +124,7 @@ nav.header {
     opacity: 0.7;
     width: 100%;
     height: 707px;
-    z-index: 0;
+    z-index: -1;
 }
 
 
@@ -812,4 +812,96 @@ nav.header {
     margin-left: 11px;
     margin-top: -2px;
     letter-spacing: 0.6px;
+}
+
+.wrapper{
+    background-image: url('../img/styles_back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 321px;
+    z-index: -1000;
+    position: relative;
+    height: 864px;
+}
+
+.wrapper-black {
+    position: absolute;
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+    width: 100%;
+    height: 864px;
+    z-index: -9;
+}
+
+.block-examples {
+    display: flex;
+    justify-content: center;
+
+}
+
+.block-examples-text {
+    margin-left: -67px;
+    margin-top: 107px;
+}
+
+.block-examples-text__header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 380px;
+    letter-spacing: 0.6px;
+}
+
+.block-examples-text-list  {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-left: -38px;
+    margin-top: 52px;
+}
+
+.block-examples-text-list li {
+    padding-bottom: 12px;
+}
+
+.block-examples-text-list li:first-child {
+    color: #E3B873;
+    border-bottom: 0.66px solid #E3B873;
+    line-height: 0.2px;
+    margin-bottom: 18px;
+    width: 150px;
+}
+
+.block-examples-pics {
+    display: grid;
+    grid-template-columns: 370px 370px;
+    grid-template-rows: 700px 700px;
+    margin-left: 147px;
+}
+
+.block-examples-pics__1 {
+    margin-top: -41px;
+    margin-left: -36px;
+}
+
+.block-examples-pics__2 {
+    margin-top: -113px;
+    margin-left: -5px;
+}
+
+.block-examples-pics__3 {
+    margin-top: -140px;
+    margin-left: -34px;
+}
+
+.block-examples-pics__4 {
+    margin-top: -498px;
+    margin-left: -6px;
 }

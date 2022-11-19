@@ -839,8 +839,8 @@ nav.header {
 }
 
 .block-examples-text {
-    margin-left: -67px;
-    margin-top: 107px;
+    margin-left: 41px;
+    margin-top: 103px;
 }
 
 .block-examples-text__header {
@@ -882,26 +882,26 @@ nav.header {
 .block-examples-pics {
     display: grid;
     grid-template-columns: 370px 370px;
-    grid-template-rows: 700px 700px;
+    grid-template-rows: 574px 350px;
     margin-left: 147px;
 }
 
 .block-examples-pics__1 {
-    margin-top: -41px;
+    margin-top: -44px;
     margin-left: -36px;
 }
 
 .block-examples-pics__2 {
-    margin-top: -113px;
+    margin-top: -116px;
     margin-left: -5px;
 }
 
 .block-examples-pics__3 {
-    margin-top: -140px;
+    margin-top: -18px;
     margin-left: -34px;
 }
 
 .block-examples-pics__4 {
-    margin-top: -498px;
+    margin-top: -375px;
     margin-left: -6px;
 }

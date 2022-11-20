@@ -325,7 +325,7 @@ nav.header {
     }
     .block-main-text__desc {
         width: 319px;
-    }
+    }   
 }
 
 .block-slider {
@@ -659,6 +659,13 @@ nav.header {
     margin-bottom: 160px;
 }
 
+.block-types-head div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
 .block-types-head__header {
     font-family: 'Yeseva One';
     font-style: normal;
@@ -668,6 +675,11 @@ nav.header {
     text-align: center;
     text-transform: uppercase;
     color: #181818;
+}
+
+.block-types-head__tools {
+    padding-left: 9px;
+    padding-right: 9px;
 }
 
 .block-types-cards {
@@ -734,6 +746,18 @@ nav.header {
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);  
     border: 0;
     padding: 17px 21.44px 17px 21.44px;
+}
+
+@media screen and (max-width: 1250px) {
+    .block-types-cards {
+        flex-direction: column;
+    }
+    .block-types-cards {
+        margin-bottom: 20px;
+    }
+    .block-types-card-text__img {
+        top: 59px;
+    }
 }
 
 .block-call {
@@ -1154,6 +1178,13 @@ nav.header {
     padding-right: 16px;
 }
 
+@media screen and (max-width: 1250px) {
+    .block-client-card {
+        margin-right: 69px;
+        flex-direction: column;
+    }
+}
+
 .block-map {
     position: relative;
     display: flex;
@@ -1352,6 +1383,21 @@ nav.header {
     margin-left: 16px;
 }
 
+@media screen and (max-width: 970px) {
+    .block-map__img {
+        width: 456px;
+        height: 367px;
+        margin-left: 0px;
+    } 
+}
+
+@media screen and (max-width: 450px) {
+    .block-map__img {
+        width: 340px;
+        height: 255px
+    } 
+}
+
 
 footer {
     display: flex;
@@ -1367,4 +1413,10 @@ footer {
     max-width: 1438px;
     margin-left: 36px;
     margin-top: 5px;
+}
+
+@media screen and (max-width: 400px) {
+    .footer {
+        margin-left: 0;
+    }
 }

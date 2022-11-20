@@ -152,6 +152,9 @@ nav.header {
     }
 }
 
+
+
+
 .wrap {
     z-index: -2;
     background-image: url('../img/main_back.png');
@@ -168,8 +171,9 @@ nav.header {
     opacity: 0.7;
     width: 100%;
     height: 707px;
-    z-index: -1;
+    z-index: 0;
 }
+
 
 
 .block-main {
@@ -256,6 +260,72 @@ nav.header {
     cursor: pointer;
     background-color: transparent;
     padding: 18px 30px 14px 27px;
+}
+
+@media screen and (max-width: 1200px) {
+    .block-main {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+    .wrap {
+        height: 476px;
+    }
+    .black {
+        height: 476px;
+    }
+    .block-main {
+        margin-top: -162px;
+        width: 339px;
+    }
+    .block-main-text__header {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #FFFFFF
+    }
+    .block-main-text__desc {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-top: 0px;
+        width: 339px;
+    }
+    .block-main-btns {
+        left: -4px;
+        bottom: 142px;
+        flex-direction: column;
+    }
+    .block-main-text {
+        width: 339px;
+    }
+    .block-main-btns__calc {
+        width: 339px;
+        height: 51px;
+        margin-bottom: 26px;
+    }
+    .block-main-btns__submit {
+        width: 339px;
+        height: 51px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .block-main {
+        margin-right: -18px;
+        margin-top: -151px;
+    }
+    .block-main-text__desc {
+        width: 319px;
+    }
 }
 
 .block-slider {

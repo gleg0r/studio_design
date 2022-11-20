@@ -16,6 +16,17 @@ header {
     height: 83px;
     align-items: center;
     max-width: 1438px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1225px) {
+    nav.header {
+        display: none;
+    }
+    .header {
+        height: 57px;
+        margin-top: 0px;
+    }
 }
 
 .block-logo {
@@ -36,10 +47,6 @@ header {
 nav.header {
     width: 581px;
     margin-left: 63px;
-}
-
-.block-menu {
-    margin-top: 5px;
 }
 
 .block-menu-list {
@@ -105,6 +112,44 @@ nav.header {
     border: 0;
     padding: 13px 35px 10px 35px;
     cursor: pointer;
+}
+
+@media screen and (max-width: 660px) {
+    .block-contact__tel {
+        margin-top: 3px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .block-contact__btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .block-contact__tel {
+        white-space: nowrap;
+    }
+
+    .block-logo {
+        margin-left: 50px;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .block-contact {
+        margin-left: 120px;
+    }
+    .block-logo {
+        margin-left: 77px;
+    }
+}
+
+@media screen and (min-width: 375px)  {
+    .block-contact {
+        margin-left: 95px;
+    }
 }
 
 .wrap {

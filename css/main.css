@@ -905,3 +905,135 @@ nav.header {
     margin-top: -375px;
     margin-left: -6px;
 }
+
+.block-client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 23px;
+}
+
+.block-client-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block-client-text__header {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.block-client-text__desc {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    margin-top: 21px;
+}
+.block-client-text-pics {
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+    margin-right: -5px;
+}
+
+.block-client-text-pics__lineLeft {
+    padding-right: 10px;
+}
+
+.block-client-text-pics__lineRight {
+    padding-left: 10px;
+}
+
+.block-client-card {
+    display: flex;
+    justify-content: center;
+    margin-right: 151px;
+    margin-top: 39px; 
+}
+
+.block-client-card-head {
+    display: flex;
+    align-items: center;
+    margin-left: 116px;
+}
+
+.block-client-card-head__header {
+    width: 178px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    margin-left: 23px;
+}
+
+.block-client-card__desc {
+    width: 319px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #959595;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.block-client-card-head__photo {
+    border-radius: 50%;
+}
+
+.block-client-card-home {
+    display: flex;
+    margin-left: 94px;
+    margin-top: 41px;
+}
+
+.block-client-card-home div {
+    width: 135px;
+    display: flex;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgb(227 184 115 / 50%);
+    margin-left: 2.03px;
+    padding: -4px 37px 33px 
+}
+
+.block-client-card-home div:last-child {
+    width: 158px;
+}
+
+.block-client-card-home__count {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.block-client-card-home__square {
+    margin-left: 16px;
+    padding-right: 17px;
+}
+
+.block-client-card-home__days {
+    margin-left: 9px;
+    padding-right: 16px;
+}

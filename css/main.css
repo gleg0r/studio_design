@@ -475,6 +475,7 @@ nav.header {
     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
     border-radius: 2px;
     border: 0;
+    cursor: pointer;
 }
 
 .block-feedback__checkbox {
@@ -788,6 +789,7 @@ nav.header {
     letter-spacing: 0.6px;
     margin-right: 54px;
     padding: 19px 38px 17px 47px;
+    cursor: pointer;
 }
 
 .block-call-pig {
@@ -1067,7 +1069,7 @@ nav.header {
     align-items: center;
     top: -223px;
     margin-left: 44px;
-    z-index: 2;
+    z-index: 7;
 }
 
 .block-map-form__header {
@@ -1194,6 +1196,7 @@ nav.header {
     color: #FFFFFF;
     margin-top: 48px;
     padding: 15px 76px 8px 76px;
+    cursor: pointer;
 }
 
 .block-map-text {

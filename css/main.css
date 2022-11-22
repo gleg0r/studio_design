@@ -764,6 +764,116 @@ nav.header {
     border-color: #ffffff;
 }
 
+@media screen and (max-width: 840px) {
+    .block-feedback-video__img {
+        width: 604px;
+        margin-left: 8px;    
+    }
+    .block-feedback-video__btn {
+        top: 123px;
+        left: 272px;
+    }
+    .block-feedback-form {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .block-feedback {
+        background-color: #131313;
+    }
+    .block-feedback-head {
+        margin-top: -141px;
+    }
+    .block-feedback-head__header {
+        margin-top: -221px;
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 138.6%; /* or 30px */
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+    }
+    .block-feedback-head__img {
+        margin-right: -14px;
+    }
+    .block-feedback-video {
+        margin-top: -455px;
+    }
+    .block-feedback-video__img {
+        width: 377px;
+        height: 252px;
+        margin-left: 18px;
+    }
+    .block-feedback-video__btn {
+        padding: 9px 9px 7px 15px;
+        top: 93px;
+        left: 186px;
+    }
+    .block-feedback-text {
+        margin-top: -2px;
+        margin-left: 19px;
+
+    }
+    .block-feedback-text__desc {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 169.8%; /* or 19px */
+        text-align: center;
+        color: #FFFFFF;
+        width: 340px;
+        margin-top: 20px;
+    }
+    .block-feedback-form {
+        margin-top: 65px;
+        margin-right: 33px;
+    }
+    .block-feedback-form label {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+
+    }
+    .block-feedback-form label input {
+        background: #131313;
+        border-bottom: 1px solid rgba(255, 255, 255, .7);
+        width: 136%;
+    }
+    .block-feedback-form label input::placeholder {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 138.72%; /* or 19px */
+        color: #FFFFFF;
+    }
+    .block-feedback-form label input:nth-of-type(n) {
+        margin-bottom: 51px;
+    }
+    .block-feedback-form__btn {
+        position: absolute;
+        bottom: -24px;
+        width: 90%;
+        left: 18px;
+    }
+    .block-feedback__checkbox {
+ 
+        margin-bottom: 87px;
+
+        margin-top: -25px;
+        color: #FFFFFF;
+        margin-right: 34px;
+    }
+}
+
 .block-types {
     display: flex;
     justify-content: center;

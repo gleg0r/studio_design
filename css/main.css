@@ -500,6 +500,7 @@ nav.header {
         margin-left: 154px;
         margin-right: 0;
         margin-top: 16px;
+        
     }
     .block-slider-text__header {
         font-family: 'Yeseva One';
@@ -1296,6 +1297,9 @@ nav.header {
     .block-client-card {
         margin-right: 69px;
         flex-direction: column;
+    }
+    .block-client-card div {
+        margin-bottom: 20px;
     }
 }
 

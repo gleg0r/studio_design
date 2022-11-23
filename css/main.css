@@ -1751,7 +1751,7 @@ footer {
 
 @media screen and (max-width: 400px) {
     .footer {
-        margin-left: 0;
+        margin-left: -40px;
         width: 92%;
     }
 }

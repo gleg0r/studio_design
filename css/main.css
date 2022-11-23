@@ -2,6 +2,7 @@
 font-family: 'Yeseva One', cursive; */
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {    
@@ -1178,7 +1179,11 @@ nav.header {
     margin-top: -2px;
     letter-spacing: 0.6px;
 }
-
+@media screen and (max-width: 1024px) {
+    .block-call {
+        display: none;
+    }
+}
 .wrapper{
     background-image: url('../img/styles_back.png');
     background-repeat: no-repeat;
@@ -1269,6 +1274,63 @@ nav.header {
 .block-examples-pics__4 {
     margin-top: -375px;
     margin-left: -6px;
+}
+.block-examples-slider {
+    display: none;
+}
+@media screen and (max-width: 1024px) {
+    .wrapper-black {
+        display: none;
+    }
+    .block-examples {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block-examples-text-list {
+        display: none;
+    }
+    .block-examples-pics {
+        display: none;
+    }
+    .wrapper {
+        background-image: url();
+        margin-top: -290px;
+        height: 379px;
+    }
+    .block-examples-text__header {
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+        width: 322px;
+    }
+    .block-examples-slider {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .block-example-slider-img__img {
+        width: 340px;
+        height: 242px;
+    }
+    .block-example-slider-img-btn__btnLeft {
+        position: absolute;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        z-index: 1;
+        top: 42%;
+        left: 4%;
+        cursor: pointer;
+    }
+    .block-example-slider-img-btn__btnRight {
+        position: absolute;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        top: 42%;
+        right: 4%;
+        cursor: pointer;
+    }
 }
 
 .block-client {
@@ -1410,6 +1472,10 @@ nav.header {
     }
     .block-client-card div {
         margin-bottom: 20px;
+    }
+    .block-client-card div p {
+        width: 256x;
+        text-align: center;
     }
 }
 
@@ -1612,11 +1678,41 @@ nav.header {
 }
 
 @media screen and (max-width: 970px) {
+    .block-map-form {
+        width: 100%;
+        margin-left: -2px;
+    }
+    .block-map-form-wrap {
+        width: 70%;
+    }
+    .block-map-form-wrap div {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .block-map-form-wrap div label{
+        margin-bottom: 25px;
+        width: 100%;
+    }
     .block-map__img {
         width: 456px;
         height: 367px;
         margin-left: 0px;
     } 
+    .block-map-form-wrap__ask {
+        margin-top: 0;
+        width: 100% !important;
+    }
+    .block-map-form__btn {
+        margin-top: 0;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .checkbox {
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 450px) {

@@ -1720,6 +1720,12 @@ nav.header {
         width: 340px;
         height: 255px
     } 
+    .block-map {
+        height: 720px;
+    }
+    .opacity {
+        height: 720px;
+    }
 }
 
 

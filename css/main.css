@@ -2,7 +2,7 @@
 font-family: 'Yeseva One', cursive; */
 body {
     margin: 0;
-    overflow-x: hidden;
+   /* overflow-x: hidden;*/
 }
 
 header {    
@@ -130,6 +130,8 @@ nav.header {
 @media screen and (max-width: 490px) {
     .block-contact__tel {
         white-space: nowrap;
+        margin-right: 25px;
+        padding-right: 0;
     }
 
     .block-logo {
@@ -288,7 +290,8 @@ nav.header {
         font-size: 23px;
         line-height: 31px;
         text-transform: uppercase;
-        color: #FFFFFF
+        color: #FFFFFF;
+        width: 338px;
     }
     .block-main-text__desc {
         font-family: 'Nunito Sans';
@@ -499,9 +502,9 @@ nav.header {
 @media screen and (max-width: 560px) {
     .block-slider-text {
         margin-left: 154px;
-        margin-right: 0;
+        margin-right: 98px;
         margin-top: 16px;
-        
+        width: 344px;
     }
     .block-slider-text__header {
         font-family: 'Yeseva One';
@@ -537,6 +540,7 @@ nav.header {
     }
     .block-slider-text-parameter {
         margin-left: -17px;
+        width: 375px;
     }
     .block-slider-text-parameter h3 {
         font-family: 'Yeseva One';
@@ -1748,5 +1752,7 @@ footer {
 @media screen and (max-width: 400px) {
     .footer {
         margin-left: 0;
+        width: 92%;
     }
 }
+*{ border:1px solid red; box-sizing:border-box; }

@@ -150,7 +150,7 @@ nav.header {
     }
 }
 
-@media screen and (min-width: 375px)  {
+@media screen and (max-width: 375px)  {
     .block-contact {
         margin-left: 63px;
     }
@@ -535,7 +535,6 @@ nav.header {
     }
     .block-slider-img {
         top: 20.5%;
-        left: 2%;
     }
     .block-slider-img__img {
         width: 340px;
@@ -787,7 +786,11 @@ nav.header {
         flex-direction: column;
     }
 }
-
+@media screen and (max-width: 660px) {
+    .block-feedback-text__desc {
+        width: 541px;
+    }
+}
 @media screen and (max-width: 560px) {
     .block-feedback {
         background-color: #131313;
@@ -1759,7 +1762,7 @@ footer {
 
 @media screen and (max-width: 560px) {
     .footer {
-        margin-left: 35px;
+        margin-left: 35px;  
         width: 107%;
     }
 }

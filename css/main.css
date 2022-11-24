@@ -1759,7 +1759,7 @@ footer {
 
 @media screen and (max-width: 560px) {
     .footer {
-        margin-left: -81px;
+        margin-left: 35px;
         width: 107%;
     }
 }

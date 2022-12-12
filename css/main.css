@@ -426,17 +426,22 @@ nav.header {
 }
 
 .block-slider-img__img.active {
-    display: block;
+    opacity: 1;
+    transition: opacity 2s ease;
 }
 
 .block-slider-img__img {
-    display: none;
+    position: absolute;
+    opacity: 0;
 }
 
 .block-slider-img-text {
     display: flex;
     margin-right: 4px;
     margin-bottom: 30px;
+    
+    margin-top: -250px;
+
 }
 
 .block-slider-img-text h4 {

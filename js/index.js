@@ -2,10 +2,12 @@ function initSlider() {
     let sliderImage = document.querySelector(".block-slider-img")
     let sliderDots = document.querySelector(".block-slider-text-dots")
     let sliderLinks = document.querySelector(".block-slider-img-text")
+    let sliderBtns = document.querySelector(".block-slider-img")
 
     initArrows()
     initDots()
     initLinks()
+    initBtns()
 
     function initArrows() {
         sliderDots.querySelectorAll(".slider__arrow").forEach(arrow => {
@@ -30,14 +32,29 @@ function initSlider() {
         })
     }
 
-   function initLinks() {
+    function initLinks() {
         sliderLinks.querySelectorAll(".block-slider-img-text__link").forEach(link => {
             link.addEventListener("click", function() {
                 moveSlider(this.dataset.index)
             })
         })
     }
-   
+    
+    function initBtns() {
+        sliderBtns.querySelectorAll(".block-slider-img-btn__btn").forEach(btn => {
+            btn.addEventListener("click", function(){
+                let curNum = +sliderImage.querySelector(".active").dataset.index
+                let nextNum
+                if(btn.classList.contains("left")) {
+                    nextNum = curNum === 1? 3 : curNum - 1
+                } else {
+                    nextNum = curNum === 3? 1 : curNum + 1
+                }
+                moveSlider(nextNum)
+            })
+        })
+    }
+
     function moveSlider(num) {
         sliderImage.querySelector(".active").classList.remove("active")
         sliderImage.querySelector(".n" + num).classList.add("active")
@@ -50,7 +67,6 @@ function initSlider() {
         sliderLinks.querySelector(".act").classList.remove("act")
         sliderLinks.querySelector(".num" + num).classList.add("act")
     }
-    
 }
 
 document.addEventListener("DOMContentLoaded", function() {

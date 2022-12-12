@@ -66,8 +66,31 @@ function initSlider() {
         document.querySelector(".block-slider-text-dots__dot" + ".n" + num).classList.add("active")
         sliderLinks.querySelector(".act").classList.remove("act")
         sliderLinks.querySelector(".num" + num).classList.add("act")
+        changeText(num)
     }
 }
+
+    function changeText(num) {
+        switch (num) {
+            case 1:
+                document.getElementById("slider__city").innerHTML = "Rostov-on-Don LCD admiral"
+                document.getElementById("slider__area").innerHTML = "81 m2"
+                document.getElementById("slider__time").innerHTML = "3.5 months"
+                break;
+            case 2:
+                document.getElementById("slider__city").innerHTML = "Sochi Thieves"
+                document.getElementById("slider__area").innerHTML = "105 m2"
+                document.getElementById("slider__time").innerHTML = "4 months"
+                break;
+            case 3:
+                document.getElementById("slider__city").innerHTML = "Rostov-on-Don Patriotic"
+                document.getElementById("slider__area").innerHTML = "93 m2"
+                document.getElementById("slider__time").innerHTML = "3 months"
+                break;
+            default:
+                break;
+        }
+    }
 
 document.addEventListener("DOMContentLoaded", function() {
     initSlider()

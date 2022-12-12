@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
@@ -79,21 +79,25 @@
                         <p class="block-slider-text-parameter__costdesc">Upon request</p>
                     </div>
                 </div>
-                <div class="block-slider-text-dots">
-                    <img class="block-slider-text-dots__arrowLeft" src="./icons/arrow_left.svg" alt="Стрелка влево">
-                    <img class="block-slider-text-dots__dots" src="./icons/dots.svg" alt="точки">
-                    <img class="block-slider-text-dots__arrowRight" src="./icons/arrow_right.svg" alt="Стрелка вправо">
+                <div class="block-slider-text-dots" id="slider-dots">
+                    <button class="slider__arrow left"><img class="block-slider-text-dots__arrow left" src="./icons/arrow_left.svg" alt="Стрелка влево"></button>
+                    <button class="slider__dot n1 active" data-index="1"><img class="block-slider-text-dots__dot n1 active" src="./icons/dot_active.svg" alt="точки" data-index="1" style="opacity: 1;"></button>
+                    <button class="slider__dot n2" data-index="2"><img class="block-slider-text-dots__dot n2" src="./icons/dot_active.svg" data-index="2" alt="точки" style="opacity: 0.3;"></button>
+                    <button class="slider__dot n3" data-index="3"><img class="block-slider-text-dots__dot n3" src="./icons/dot_active.svg" data-index="3" alt="точки" style="opacity: 0.3;"></button>
+                    <button class="slider__arrow right"><img class="block-slider-text-dots__arrow right" src="./icons/arrow_right.svg" alt="Стрелка вправо"></button>
                 </div>
             </div>
-            <div class="block-slider-img">
+            <div class="block-slider-img" id="slider">
                 <div class="block-slider-img-text">
-                    <h4 class="block-slider-img-text__header active">Rostov-on-Don, Admiral</h4>
-                    <h4 class="block-slider-img-text__header">Sochi Thieves</h4>
-                    <h4 class="block-slider-img-text__header">Rostov-on-Don Patriotic</h4>
+                    <a class="block-slider-img-text__link num1 act"  data-index="1">Rostov-on-Don, Admiral</a>
+                    <a class="block-slider-img-text__link num2" data-index="2">Sochi Thieves</a>
+                    <a class="block-slider-img-text__link num3" data-index="3">Rostov-on-Don Patriotic</a>
                 </div>
-                <button class="block-slider-img-btn__btnLeft"><img class="block-slider-img__btnLeft" src="./icons/btn_left.svg" alt=""></button>
-                <img class="block-slider-img__img" src="./img/example.png" alt="пример ремонта">
-                <button class="block-slider-img-btn__btnRight"><img class="block-slider-img__btnRight" src="./icons/btn_right.svg" alt=""></button>
+                <button class="block-slider-img-btn__btnLeft" id="slider__btnLeft"><img class="block-slider-img__btnLeft" src="./icons/btn_left.svg" alt=""></button>
+                <img class="block-slider-img__img n1 active" src="./img/example.png" alt="пример ремонта" data-index="1">
+                <img class="block-slider-img__img n2" src="./img/example_2.png" alt="пример ремонта" data-index="2">
+                <img class="block-slider-img__img n3" src="./img/example_3.png" alt="пример ремонта" data-index="3">
+                <button class="block-slider-img-btn__btnRight"  id="slider__btnRight"><img class="block-slider-img__btnRight" src="./icons/btn_right.svg" alt=""></button>
             </div>
         </div>
         <div class="block-feedback">
@@ -389,5 +393,7 @@
             </div>  
         </div>
     </footer>
+    
 </body>
+<script src="./js/index.js"></script>
 </html>
